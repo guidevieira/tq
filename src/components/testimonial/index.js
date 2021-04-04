@@ -61,7 +61,7 @@ class Testimonial extends Component {
                     <div className="quote-icon">
                       <i className="fi flaticon-right-quote"></i>
                     </div>
-                    <h4>Barbara</h4>
+                    <h4>Brenda Tertuliano</h4>
                     <div className="designation">CEO</div>
                     <div className="text">
                       Lorem Ipsum has been the industry's standard dummy text
@@ -81,7 +81,7 @@ class Testimonial extends Component {
                     <div className="quote-icon">
                       <i className="fi flaticon-right-quote"></i>
                     </div>
-                    <h4>Larissa</h4>
+                    <h4>Larissa Vieira</h4>
                     <div className="designation">CEO</div>
                     <div className="text">
                       Lorem Ipsum has been the industry's standard dummy text

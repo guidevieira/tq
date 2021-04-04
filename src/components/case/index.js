@@ -174,8 +174,8 @@ class Porfolio extends Component {
                     </div>
                     <div className="overlay-text">
                       <div className="text-inner">
-                        <p className="sub">General</p>
-                        <h3>Personal Issue</h3>
+                        <p className="sub">Em geral</p>
+                        <h3>Problema Pessoal</h3>
                       </div>
                     </div>
                   </div>
@@ -194,15 +194,42 @@ class Porfolio extends Component {
                   <div className="studies-item">
                     <div className="studies-single">
                       <img
-                        src={Gallery_6}
+                        src={Gallery_3}
                         alt=""
                         className="img img-responsive"
                       />
                     </div>
                     <div className="overlay-text">
                       <div className="text-inner">
-                        <p className="sub">Business</p>
-                        <h3>Business Accounting</h3>
+                        <p className="sub">Empresa</p>
+                        <h3>Contabilidade Empresarial</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className={
+                    this.state.onPrintDesign
+                      ? "grid active"
+                      : "grid" && this.state.onPhotography
+                      ? "grid active"
+                      : "grid" && this.state.isOpen
+                      ? "grid"
+                      : "grid open"
+                  }
+                >
+                  <div className="studies-item">
+                    <div className="studies-single">
+                      <img
+                        src={Gallery_4}
+                        alt=""
+                        className="img img-responsive"
+                      />
+                    </div>
+                    <div className="overlay-text">
+                      <div className="text-inner">
+                        {/* <p className="sub">kProblema de famíliaProblema de família</p> */}
+                        <h3>Problema familiar</h3>
                       </div>
                     </div>
                   </div>
@@ -228,35 +255,8 @@ class Porfolio extends Component {
                     </div>
                     <div className="overlay-text">
                       <div className="text-inner">
-                        <p className="sub">Family Issue</p>
-                        <h3>Business Accounting</h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className={
-                    this.state.onPrintDesign
-                      ? "grid active"
-                      : "grid" && this.state.onPhotography
-                      ? "grid active"
-                      : "grid" && this.state.isOpen
-                      ? "grid"
-                      : "grid open"
-                  }
-                >
-                  <div className="studies-item">
-                    <div className="studies-single">
-                      <img
-                        src={Gallery_3}
-                        alt=""
-                        className="img img-responsive"
-                      />
-                    </div>
-                    <div className="overlay-text">
-                      <div className="text-inner">
-                        <p className="sub">Corporate</p>
-                        <h3>General Practice</h3>
+                        <p className="sub">Corporativo</p>
+                        <h3>Prática geral</h3>
                       </div>
                     </div>
                   </div>
